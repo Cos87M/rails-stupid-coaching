@@ -1,8 +1,12 @@
-<div class ="container">
+<div class="container">
   <h1>Stupid Coaching</h1>
-    <form action="answer" method="get" id="answer">
-    <label for="question">Speak to your coach</label>
-    <input type="text" id="question" name="???" placeholder="what time is it?">
-    <input type="submit" value="Go on!">
+
+  <p>Ask your coach anything:</p>
+
+  <form action="/answer">
+    <div class="input-group">
+      <input type="text" name="question" class="form-control">
+      <input type="submit" value="Ask" class="btn btn-primary">
+    </div>
   </form>
 </div>
